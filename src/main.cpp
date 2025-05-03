@@ -1,10 +1,12 @@
 //
 // Created by LymoneChen on 25-4-28.
 //
-#include <SDL3/SDL.h>
-#include <iostream>
+
+// main function of GestaltOS
+
+#include "test.hpp"
 
 int main(int argc, char* argv[]){
-    std::cout<<"Test"<<std::endl;
+    GOStest();
     return 0;
 }
